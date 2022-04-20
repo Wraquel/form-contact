@@ -1,0 +1,147 @@
+:root {
+  --first-color: rgb(30, 28, 28);
+  --third-color: rgb(0, 68, 228);
+  --fifth-color: rgb(250, 2, 2);
+  --sixth-color: rgb(30, 215, 96);
+}
+body {
+  color: var(--first-color);
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(58 71 153 / 73%);
+}
+.navbar {
+  padding-bottom: 1px;
+  background: var(--sixth-color);
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+
+  color: black;
+}
+.container .navbar-brand {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: start;
+  padding: 3px;
+  letter-spacing: 2.5px;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: rgb(44, 43, 43);
+}
+#name,
+#email {
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 25vw;
+}
+.form {
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-align: left;
+  margin-top: 75px;
+}
+.error {
+  color: var(--sixth-color);
+  font-size: 13px;
+  position: relative;
+  top: -5px;
+}
+.error-border {
+  border-bottom: 1px solid var(--fifth-color);
+}
+
+#email:focus,
+#name:focus,
+#experience:focus {
+  outline: 0;
+  border: none;
+}
+p {
+  margin-top: 10px;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+}
+
+select:focus {
+  outline: 0;
+}
+
+input,
+.senioridade,
+textarea {
+  border: none;
+  border-bottom: 1px solid var(--first-color);
+  background-color: unset;
+}
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.tecnologias li {
+  display: inline;
+}
+label {
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.senioridade {
+  margin-left: 10px;
+  letter-spacing: 1.2px;
+}
+
+select {
+  padding: 2px;
+  border: none;
+}
+#experience {
+  resize: none;
+  width: 100%;
+  height: 55px;
+  padding-left: 5px;
+}
+#button {
+  text-align: center;
+}
+button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  background: var(--sixth-color);
+  border-radius: 30px;
+}
+input:hover,
+select:hover {
+  cursor: pointer;
+}
+button:hover {
+  background-color: whitesmoke;
+  border: 3px solid var(--sixth-color);
+}
+.footer {
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+.form-center {
+  margin-left: 22%;
+  margin-top: 10%;
+  font-size: 30px;
+}
