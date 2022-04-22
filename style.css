@@ -29,7 +29,8 @@ h1 {
   margin-bottom: 20px;
 }
 ::placeholder {
-  color: rgb(44, 43, 43);
+  color: rgb(66, 64, 64);
+font-size: 14px;
 }
 #name,
 #email {
@@ -91,9 +92,6 @@ li {
   margin-bottom: 10px;
 }
 
-.tecnologias li {
-  display: inline;
-}
 label {
   padding-left: 8px;
   padding-right: 10px;
@@ -131,10 +129,12 @@ select:hover {
 }
 button:hover {
   background-color: whitesmoke;
-  border: 3px solid var(--sixth-color);
+  border-inline: 3px solid var(--sixth-color);
 }
 .footer {
-  width: 100vw;
+  text-align: center;
+  margin-top: 120px;
+
 }
 a {
   text-decoration: none;
