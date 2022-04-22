@@ -45,7 +45,7 @@ font-size: 14px;
   border-radius: 30px;
   padding: 10px 20px;
   text-align: left;
-  margin-top: 75px;
+  margin-top: 130px;
 }
 .error {
   color: var(--sixth-color);
@@ -133,7 +133,7 @@ button:hover {
 }
 .footer {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 70px;
 
 }
 a {
