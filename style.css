@@ -15,7 +15,6 @@ body {
 }
 .navbar-light .navbar-nav .nav-link {
   font-family: "Poppins", sans-serif;
-
   color: black;
 }
 .container .navbar-brand {
@@ -39,13 +38,16 @@ font-size: 14px;
   font-size: 16px;
   margin-bottom: 20px;
   width: 25vw;
+  height: 5vh;
+  padding: 10px;
+  border-radius: 15px;
 }
 .form {
   align-items: center;
   border-radius: 30px;
   padding: 10px 20px;
   text-align: left;
-  margin-top: 130px;
+  margin-top: 90px;
 }
 .error {
   color: var(--sixth-color);
@@ -76,9 +78,10 @@ select:focus {
 input,
 .senioridade,
 textarea {
-  border: none;
-  border-bottom: 1px solid var(--first-color);
-  background-color: unset;
+  border: 1px solid rgb(80, 80, 80);
+
+background-color: rgba(168, 176, 234, 0.73);
+
 }
 .flex-container {
   display: flex;
@@ -108,8 +111,9 @@ select {
 #experience {
   resize: none;
   width: 100%;
-  height: 55px;
+  height: 15vh;
   padding-left: 5px;
+  border-radius: 27px;
 }
 #button {
   text-align: center;
@@ -133,7 +137,7 @@ button:hover {
 }
 .footer {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 20px;
 
 }
 a {
